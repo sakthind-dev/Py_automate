@@ -284,7 +284,8 @@ def factorial(x):
             result *= i
         return result
 
-
+# Logarithm function
+# The logarithm function takes two arguments: x and base
 def logarithm(x, base): 
     if x <= 0 or base <= 1:
         return "Error: Invalid input for logarithm"
