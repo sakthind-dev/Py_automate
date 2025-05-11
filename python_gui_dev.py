@@ -311,7 +311,7 @@ def cotangent(x):
     return 1 / math.tan(math.radians(x))
 
 # Create a button to trigger the display function
-# Run the mainloop application
+# Run the mainloop application to keep the window open
 root.mainloop()
 # This code creates a simple GUI application with two input boxes and a button.
 # When the button is clicked, it retrieves the values from the input boxes and prints them to the console.
