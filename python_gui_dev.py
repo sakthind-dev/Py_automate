@@ -13,7 +13,7 @@ from tkinter import messagebox  # Import messagebox for displaying output
 
 # Create the main window
 root = tk.Tk()
-root.title("Quick Math Calculator")  # Set the title of the window
+root.title("Simple Math Calculator")  # Set the title of the window
 #root.geometry("400x300")  # Set the window size
 
 # Create labels and input boxes
@@ -70,8 +70,8 @@ def display_inputs():
         value2 = validate_inputs(entry2.get())
         print(f"Input 1: {value1}")
         print(f"Input 2: {value2}")
-        n = add(value1, value2)
-        print(f"Output: {n}")
+        #n = add(value1, value2)
+        #print(f"Output: {n}")
 
         operation = selected_operation.get()
         
